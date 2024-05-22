@@ -1,0 +1,44 @@
+Crating DB:
+use firstMongoDB;
+switched to db firstMongoDB
+
+
+Intering data:
+db.products.insertMany([
+    {
+        "id": "1",
+        "product_name": "Intelligent Fresh Chips",
+        "product_price": 655.00,
+        "product_material": "Concrete",
+        "product_color": "mint green"
+    },
+    {
+        "id": "2",
+        "product_name": "Practical Fresh Sausages",
+        "product_price": 911.0,
+        "product_material": "Cotton",
+        "product_color": "indigo"
+    },
+    {
+        "id": "3",
+        "product_name": "Refined Steel Car",
+        "product_price": 690.00,
+        "product_material": "Rubber",
+        "product_color": "gold"
+    },
+    ...
+    {
+        "id": "24",
+        "product_name": "Tasty Rubber Cheese",
+        "product_price":47.00,
+        "product_material": "Frozen",
+        "product_color": "orchid"
+    },
+    {
+        "id": "25",
+        "product_name": "Licensed Steel Car",
+        "product_price":20.00,
+        "product_material": "Cotton",
+        "product_color": "indigo"
+    },
+]);
